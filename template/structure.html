@@ -1,0 +1,284 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Pc Service Guru</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/linearicons.css')}}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css')}}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css')}}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css')}}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/nice-select.css')}}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.min.css')}}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.css')}}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+
+
+		</head>
+		<body>
+			  <header id="header" >
+				  <!-- Social media apps -->
+		  		<div class="header-top">
+		  			<div class="container">
+				  		<div class="row">
+				  			<div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
+				  				<ul>
+									<li><a href="{{ parameter['fb_url'] }}"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="{{ parameter['tw_url'] }}"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="https://api.whatsapp.com/send?phone=917208441554&text=Hi%20I%20have%20a%20problem%20with%20my%20Computer.%20Please%20Help%20me%20out%20!!!"><i class="fa fa-whatsapp"></i></a></li>
+				  				</ul>
+				  			</div>
+							<!-- contact details -->
+				  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
+				  				<a href="tel:+91 72084 41554 ">+91 72084 41554 / +91 74989 67702</a>
+				  				<a href="mailto:pcserviceguru@gmail.com">pcserviceguru@gmail.com</a>
+				  			</div>
+				  		</div>
+		  			</div>
+				</div>
+  <!-- Pc service Guru Logo -->
+			    <div class="container main-menu">
+			    	<div class="row align-items-center justify-content-between d-flex">
+				      <div id="logo">
+				        <a href="#"><img src="{{  url_for('static', filename='img/PCGURU.png')}}" alt="" title="" /></a>
+				      </div>
+						<!-- Nav bar -->
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          <li class="menu-active"><a href="/">Home</a></li>
+				          <li><a href="/about">About</a></li>
+				          <li class="dropdown">
+								<a href="#" class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" role="button">service<span class="caret"></span></a>
+								<ul class="dropdown-menu" >
+									<li><a href="/lapdesk">Laptop & Desktop</a></li>
+									<li><a href="/cctv">CCTV service</a></li>
+
+								</ul>
+							</li>
+				          <li><a href="/product">Product & Sale</a></li>
+				          <li><a href="/contact">Contact</a></li>
+				        </ul>
+				      </nav><!-- #nav-menu-container -->
+			    	</div>
+			    </div>
+			  </header>
+			  <!-- #header -->
+
+
+
+              {% block body %} {% endblock %}
+
+
+
+
+
+
+			<!-- End discount-section Area -->
+			  <div class="jumbotron jumbotron-fluid mt-5">
+
+				  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row">
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/1.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/2.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/3.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/4.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/5.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/7.png')}}"  alt="tally">
+							</div>
+						</div>
+
+					</div>
+					<div class="carousel-item">
+					  	<div class="row">
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/qk.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/1615.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/14.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/15.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/samss.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/hp2.jpg')}}"  alt="tally">
+							</div>
+						</div>
+					</div>
+					  <div class="carousel-item">
+					  	<div class="row">
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/13.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/8.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/9.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/10.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/11.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/12.png')}}"  alt="tally">
+							</div>
+						</div>
+					</div>
+
+
+
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				  </a>
+				</div>
+
+
+              </div>
+              <!--end owl-->
+			  <!--Start of Tawk.to Script-->
+
+				<script type="text/javascript">
+				var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+				(function(){
+				var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+				s1.async=true;
+				s1.src='https://embed.tawk.to/5f5b6ead4704467e89ee1ffe/default';
+				s1.charset='UTF-8';
+				s1.setAttribute('crossorigin','*');
+				s0.parentNode.insertBefore(s1,s0);
+				})();
+				</script>
+
+<!--End of Tawk.to Script-->
+
+
+
+			<footer class="footer-area section-gap">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-lg-6  col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>SERVICE</h6>
+								<div class="row">
+									<div class="col">
+										<ui style="list-style-type:none;">
+												<li><p>Fix Bugs & laptop Issues</p></li>
+												<li><p>Same Day Repair Service</p></li>
+												<li><p>Free Onsite Support</p></li>
+												<li><p>Motherboard Repairing</p></li>
+												<li><p>Software Installation</p></li>
+
+										</ui>
+									</div>
+									<div class="col">
+										<ui style="list-style-type:none;">
+												<li><p>Laptop Parts Replacement</p></li>
+												<li><p>Motherboard Replacement</p></li>
+												<li><p>Panel and hinges replacement</p></li>
+												<li><p>Keyboard & Mouse Replacement</p></li>
+												<li><p>Anti-viruses Avaliable</p></li>
+
+										</ui>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>Navigation Links</h6>
+								<div class="row">
+									<div class="col">
+										<ul>
+											<li><a href="/">Home</a></li>
+											<li><a href="/about">About</a></li>
+											<li><a href="#">Services</a></li>
+											<li><a href="/product">Products & Sale</a></li>
+											<li><a href="/contact">Contact</a></li>
+										</ul>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3  col-md-6 col-sm-6">
+							<div class="single-footer-widget mail-chimp">
+								<h6 class="mb-20">ADDRESS</h6>
+								<span class="fa fa-home"></span><p> B-18, Rashmi Dhruvita Park Behind Saraswat Bank, New Link Road,Nalasopara-East , Mumbai -401209. </p>
+								<span class="fa fa-at"><p> pcserviceguru@gmail.com</p></span><br>
+
+								<i class="fa fa-whatsapp"></i><p> (+91) 72084 41554 </p>
+								<i class="fa fa-phone"></i><p>(+91) 74989 67702 </p>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="row footer-bottom d-flex justify-content-between align-items-center">
+						<p class="col-lg-8 col-sm-12 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Pc Service Guru</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+						<div class="col-lg-4 col-sm-12 footer-social">
+							<a href="{{ parameter['fb_url'] }}"><i class="fa fa-facebook"></i></a>
+							<a href="{{ parameter['tw_url'] }}"><i class="fa fa-twitter"></i></a>
+							<a href="https://api.whatsapp.com/send?phone=917208441554&text=Hi%20I%20have%20a%20problem%20with%20my%20Computer.%20Please%20Help%20me%20out%20!!!"><i class="fa fa-whatsapp"></i></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- End footer Area -->
+
+			<script src="{{  url_for('static', filename='js/vendor/jquery-2.2.4.min.js')}}"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="{{  url_for('static', filename='js/vendor/bootstrap.min.js')}}"></script>
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+  			<script src="{{  url_for('static', filename='js/easing.min.js')}}"></script>
+			<script src="{{  url_for('static', filename='js/hoverIntent.js')}}"></script>
+			<script src="{{  url_for('static', filename='js/superfish.min.js')}}"></script>
+			<script src="{{  url_for('static', filename='js/mn-accordion.js')}}"></script>
+			<script src="{{  url_for('static', filename='js/jquery.ajaxchimp.min.js')}}"></script>
+			<script src="{{  url_for('static', filename='js/jquery.magnific-popup.min.js')}}"></script>
+			<script src="{{  url_for('static', filename='js/owl.carousel.min.js')}}"></script>
+			<script src="{{  url_for('static', filename='js/jquery.nice-select.min.js')}}"></script>
+    		<script src="{{  url_for('static', filename='js/jquery.circlechart.js')}}"></script>
+
+			<script src="{{  url_for('static', filename='js/main.js')}}"></script>
+		</body>
+	</html>

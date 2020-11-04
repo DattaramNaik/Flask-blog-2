@@ -1,0 +1,529 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Pc Service Guru</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/linearicons.css')}}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css')}}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css')}}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css')}}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/nice-select.css')}}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.min.css')}}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.css')}}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+
+
+			<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+		</head>
+		<body>
+			  <header id="header" >
+				  <!-- Social media apps -->
+		  		<div class="header-top">
+		  			<div class="container">
+				  		<div class="row">
+				  			<div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
+				  				<ul>
+									<li><a href="{{ parameter['fb_url'] }}"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="{{ parameter['tw_url'] }}"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="https://api.whatsapp.com/send?phone=917208441554&text=Hi%20I%20have%20a%20problem%20with%20my%20Computer.%20Please%20Help%20me%20out%20!!!"><i class="fa fa-whatsapp"></i></a></li>
+				  				</ul>
+				  			</div>
+							<!-- contact details -->
+				  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
+				  				<a href="tel:+91 72084 41554 ">+91 72084 41554 / +91 74989 67702</a>
+
+				  				<a href="mailto:pcserviceguru@gmail.com">pcserviceguru@gmail.com</a>
+				  			</div>
+				  		</div>
+		  			</div>
+				</div>
+  <!-- Pc service Guru Logo -->
+			    <div class="container main-menu">
+			    	<div class="row align-items-center justify-content-between d-flex">
+				      <div id="logo">
+				        <a href="#"><img src="{{  url_for('static', filename='img/PCGURU.png')}}" alt="" title="" /></a>
+				      </div>
+						<!-- Nav bar -->
+				      <nav id="nav-menu-container">
+				        <ul class="nav-menu">
+				          <li class="menu-active" ><a href="/">Home</a></li>
+				          <li><a href="/about">About</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" data-toggle="dropdown" role="button">service<span class="caret"></span></a>
+								<ul class="dropdown-menu" >
+									<li><a href="/lapdesk">Laptop & Desktop</a></li>
+									<li><a href="/cctv">CCTV service</a></li>
+
+								</ul>
+							</li>
+
+				          <li><a href="/product">Product & Sale</a></li>
+				          <li><a href="/contact">Contact</a></li>
+				        </ul>
+				      </nav><!-- #nav-menu-container -->
+			    	</div>
+			    </div>
+			  </header>
+			  <!-- #header -->
+
+			  <!-- carousel start -->
+			  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  				<ol class="carousel-indicators">
+    				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  				</ol>
+  				<div class="carousel-inner">
+    				<div class="carousel-item active">
+      					<img class="d-block w-100" src="{{  url_for('static', filename='img/PCLOGOFFJPG.jpg')}}" alt="First slide">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Computer Sales & Service</h5>
+						</div>
+    				</div>
+    			<div class="carousel-item">
+      				<img class="d-block w-100" src="{{  url_for('static', filename='img/PCLOGOFFJPG.jpg')}}" alt="Second slide">
+					<div class="carousel-caption d-none d-md-block">
+							<h5>Computer Sales & Service</h5>
+					</div>
+    			</div>
+    			<div class="carousel-item">
+					<img class="d-block w-100" src="{{  url_for('static', filename='img/PCLOGOFFJPG.jpg')}}" alt="Third slide">
+					<div class="carousel-caption d-none d-md-block">
+							<h5>Computer Sales & Service</h5>
+					</div>
+    			</div>
+  				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+	  			</a>
+			  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+			  <!-- carousel end -->
+
+			<!-- start banner Area -->
+			<section class="banner-area" id="home">
+				<div class="container">
+					<div class="row fullscreen d-flex align-items-center">
+						<div class="banner-content col-lg-7 col-md-6 justify-content-center ">
+							<h6 class="text-uppercase">Don’t look further, This is our Solution</h6>
+							<h1>
+								All things need to repair
+							</h1>
+							<p class="text-white">
+								 We specialize in all types of laptop services and provide reliable and quality door step service to our clients.we provide below mentioned services.
+							</p>
+							<a href="#" class="primary-btn header-btn text-uppercase mt-10">Get Started</a>
+						</div>
+						<div class="banner-img col-lg-5 col-md-6 align-self-end">
+							<img class="img-fluid" src="{{  url_for('static', filename='img/banner-img.png')}}" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->
+			  <!-- Start service Area -->
+			<section class="service-area section-gap" id="service">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-12 pb-50 header-text text-center">
+							<h1 class="mb-10">SPECIALISED IN</h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-6">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="{{  url_for('static', filename='img/work/work1.jpg')}}" alt="">
+								</div>
+								<h4>FIX BUGS & Laptop ISSUES</h4>
+								<p>
+									We Have A Young, Creative And Enthusiastic Team Of Technicians That Reconcile All The Bugs And Furnish Our Clients With Marvellous Services.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="{{  url_for('static', filename='img/work/work2.jpg')}}" alt="">
+								</div>
+								<h4>SAME DAY REPAIR SERVICES</h4>
+								<p>
+									We Know The Worth Of Laptop In Our Customer's Lives, Thus We Equip Them With Our Wondrous Same Day Repair Facility.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="{{  url_for('static', filename='img/work/work31.jpg')}}" alt="">
+								</div>
+								<h4>FREE ONLINE SUPPORT</h4>
+								<p>
+									We Provide Matchless And Admirable Onsite Service For Your Worthy Laptop, Motherboard Replacement, Fan Replacement & Much More.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="{{  url_for('static', filename='img/work/work4.jpg')}}" alt="">
+								</div>
+								<h4>MOTHERBOARD REPAIRING</h4>
+								<p>Motherboard repairing is our chief repairing business. As we know the worth of motherboard in your laptop. thus we furnish it carefully and attentively. Service cost that your pocket feel delight.Technicians are skilled in repairing.
+								</p>
+							</div>
+						</div>
+
+
+						<div class="col-lg-4 col-md-6">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="{{  url_for('static', filename='img/work/work5.jpg')}}" alt="">
+								</div>
+								<h4>SOFTWARE INSTALLATION</h4>
+								<p>Software installation is also one of our marvelous activity.Our team is engaged with multi softwares and have skilled knowledge about it. Team is always ready for our client's contentment.Multi type of software we install.All models of Dell softwares should be provided.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="{{  url_for('static', filename='img/work/work6.jpeg')}}" alt="">
+								</div>
+								<h4>LAPTOP PARTS REPLACEMENT</h4>
+								<p>In-spite of smashing repairing service we furnish our client with our spare parts replacement facility. We first diagnose the part which need to be replace and them replace it. replaced part is 100% tested. part is genuine and original.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 justify-content-center">
+							<div class="single-service">
+								<div class="thumb">
+									<img src="{{  url_for('static', filename='img/work/work7.jpg')}}" alt="">
+								</div>
+								<h4>ANTIVIRUS SERVICE</h4>
+								<p>Antivirus or anti-virus software (often abbreviated as AV), sometimes known as anti-malware software, is computer software used to prevent, detect and remove malicious software.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End service Area -->
+
+
+
+			<!-- Start home-about Area -->
+			<section class="home-about-area section-gap relative">
+				<div class="container">
+					<div class="row align-items-center justify-content-start">
+						<div class="col-lg-6 no-padding home-about-right">
+							<h1>
+								We can fix all types <br>
+								of computer & mobiles
+							</h1>
+							<p>
+								Welcome to the Computer and Mobile Zone . We provide and repair  all types of mobiles , computer , laptops,computer accessories and mobile accessories,etc.
+							</p>
+							<div class="row no-gutters">
+								<div class="single-services col">
+									<span class="lnr lnr-store"></span>
+									<a href="#">
+										<h4>Address</h4>
+									</a>
+									<p>
+										B-18, Rashmi Dhruvita Park Behind Saraswat Bank, New Link Road, Nalasopara-East , Mumbai -401209.
+									</p>
+								</div>
+								<div class="single-services col">
+									<span class="lnr lnr-user"></span>
+									<a href="#">
+										<h4>Pro.Hemant A. Mahajan</h4>
+									</a>
+									<p>
+										<span class="fa fa-whatsapp">			(+91) 72084 41554</span><br>
+										<span class="fa fa-phone" >			(+91) 74989 67702</span><br>
+										<span class="fa fa-at">			pcserviceguru@gmail.com</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- End home-about Area -->
+
+			<!-- Start discount-section Area -->
+			<section class="discount-section-area relative section-gap">
+				<div class="overlay overlay-bg"></div>
+				<div class="container">
+					<div class="row align-items-center justify-content-between no-gutters">
+						<div class="col-lg-6 discount-left">
+							<h1 class="text-white">Unable to work? Your computer freezes?</h1>
+							<p class="text-white">
+								 We’ll help you get back to work. Fast and Qualitatively.
+							</p>
+							<a href="tel:+91 72084 41554 " class="header-btn">Order Service Now</a>
+						</div>
+						<div class="col-lg-5 discount-right">
+							<h4 class="text-white">	SEND ANY QUERY ON MAIL</h4>
+		                    <form class="booking-form" id="myForm" action="/" method="POST" >
+		                        <div class="row">
+		                            <div class="col-lg-12 d-flex flex-column">
+		                                <input name="name" placeholder="Your name" onfocus="this.placeholder = ''" autocomplete="false" onblur="this.placeholder = 'Your Name'" class="form-control mt-20" required="" type="text">
+		                            </div>
+		                            <div class="col-lg-6 d-flex flex-column">
+		                                <input name="phone" placeholder="Phone" onfocus="this.placeholder = ''" autocomplete="false" onblur="this.placeholder = 'Phone'" class="form-control mt-20" required="" type="text">
+		                            </div>
+		                            <div class="col-lg-6 d-flex flex-column">
+		                                <input name="email" placeholder="Email" onfocus="this.placeholder = ''" autocomplete="false" onblur="this.placeholder = 'Email'" class="form-control mt-20" required="" type="email">
+		                            </div>
+		                            <div class="col-lg-12 flex-column">
+		                                <textarea rows="5" class="form-control mt-20" name="message" placeholder="Messege" autocomplete="false" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+		                            </div>
+
+
+		                                <button class="genric-btn primary mt-20 mr-2 text-uppercase " type="submit">SUBMIT</button>
+
+									<div class=" justify-content-end send-btn">
+
+		                                <a class="genric-btn success mt-20 text-uppercase justify-content-end" href="https://api.whatsapp.com/send?phone=917208441554&text=Hi%20I%20have%20a%20problem%20with%20my%20Computer.%20Please%20Help%20me%20out%20!!!" >
+											<span class="fa fa-whatsapp"></span>
+											WHATSAPP US
+										</a>
+									</div>
+
+		                        </div>
+		                    </form>
+						</div>
+					</div>
+				</div>
+			</section>
+			  <!-- Print Flash Message Start-->
+			  {% with messages = get_flashed_messages( with_categories = true)  %}
+			  {% if messages %}
+			  {% for category , message in messages %}
+			  <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+				  {{ message }}
+				  <button type="button" class="close" data-dismiss ="alert" aria-label="close">
+					  <span aria-hidden="true">&times;</span>
+				  </button>
+			  </div>
+			  {% endfor %}
+			  {% endif %}
+			  {% endwith %}
+			  <!-- Print Flash Message end-->
+			<!-- End discount-section Area -->
+			  <div class="jumbotron jumbotron-fluid mt-5">
+
+				  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row">
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/1.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/2.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/3.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/4.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/5.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/7.png')}}"  alt="tally">
+							</div>
+						</div>
+
+					</div>
+					<div class="carousel-item">
+					  	<div class="row">
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/qk.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/1615.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/14.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/15.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/samss.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/hp2.jpg')}}"  alt="tally">
+							</div>
+						</div>
+					</div>
+					  <div class="carousel-item">
+					  	<div class="row">
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/13.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/8.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/9.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/10.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/11.png')}}"  alt="tally">
+							</div>
+							<div class="col-2">
+								<img class="d-block w-100" src="{{  url_for('static', filename='img/logo/12.png')}}"  alt="tally">
+							</div>
+						</div>
+					</div>
+
+
+
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				  </a>
+				</div>
+
+
+              </div>
+              <!--end owl-->
+			  <!--Start of Tawk.to Script-->
+
+				<script type="text/javascript">
+				var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+				(function(){
+				var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+				s1.async=true;
+				s1.src='https://embed.tawk.to/5f5b6ead4704467e89ee1ffe/default';
+				s1.charset='UTF-8';
+				s1.setAttribute('crossorigin','*');
+				s0.parentNode.insertBefore(s1,s0);
+				})();
+				</script>
+
+<!--End of Tawk.to Script-->
+
+
+
+			<footer class="footer-area section-gap">
+				<div class="container">
+
+					<div class="row">
+						<div class="col-lg-6  col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>SERVICE</h6>
+								<div class="row">
+									<div class="col">
+										<ui style="list-style-type:none;">
+												<li><p>Fix Bugs & laptop Issues</p></li>
+												<li><p>Same Day Repair Service</p></li>
+												<li><p>Free Onsite Support</p></li>
+												<li><p>Motherboard Repairing</p></li>
+												<li><p>Software Installation</p></li>
+
+										</ui>
+									</div>
+									<div class="col">
+										<ui style="list-style-type:none;">
+												<li><p>Laptop Parts Replacement</p></li>
+												<li><p>Motherboard Replacement</p></li>
+												<li><p>Panel and hinges replacement</p></li>
+												<li><p>Keyboard & Mouse Replacement</p></li>
+												<li><p>Anti-viruses Avaliable</p></li>
+
+										</ui>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>Navigation Links</h6>
+								<div class="row">
+									<div class="col">
+										<ul>
+											<li><a href="/">Home</a></li>
+											<li><a href="/about">About</a></li>
+											<li><a href="#">Services</a></li>
+											<li><a href="/product">Products & Sale</a></li>
+											<li><a href="/contact">Contact</a></li>
+										</ul>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3  col-md-6 col-sm-6">
+							<div class="single-footer-widget mail-chimp">
+								<h6 class="mb-20">ADDRESS</h6>
+								<span class="fa fa-home"></span><p> B-18, Rashmi Dhruvita Park Behind Saraswat Bank, New Link Road,Nalasopara-East , Mumbai -401209. </p>
+								<span class="fa fa-at"><p> pcserviceguru@gmail.com</p></span><br>
+
+								<i class="fa fa-whatsapp"></i><p> (+91) 72084 41554 </p>
+								<i class="fa fa-phone"></i><p>(+91) 74989 67702 </p>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="row footer-bottom d-flex justify-content-between align-items-center">
+						<p class="col-lg-8 col-sm-12 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Pc Service Guru</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+</p>
+						<div class="col-lg-4 col-sm-12 footer-social">
+							<a href="{{ parameter['fb_url'] }}"><i class="fa fa-facebook"></i></a>
+							<a href="{{ parameter['tw_url'] }}"><i class="fa fa-twitter"></i></a>
+							<a href="https://api.whatsapp.com/send?phone=917208441554&text=Hi%20I%20have%20a%20problem%20with%20my%20Computer.%20Please%20Help%20me%20out%20!!!"><i class="fa fa-whatsapp"></i></a>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- End footer Area -->
+
+			<script src="{{  url_for('static', filename='js/vendor/jquery-2.2.4.min.js')}}"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+			<script src="{{  url_for('static', filename='js/vendor/bootstrap.min.js')}}"></script>
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+  			<script src="{{  url_for('static', filename='js/easing.min.js')}}"></script>
+			<script src="{{  url_for('static', filename='js/hoverIntent.js')}}"></script>
+			<script src="{{  url_for('static', filename='js/superfish.min.js')}}"></script>
+			<script src="{{  url_for('static', filename='js/mn-accordion.js')}}"></script>
+			<script src="{{  url_for('static', filename='js/jquery.ajaxchimp.min.js')}}"></script>
+			<script src="{{  url_for('static', filename='js/jquery.magnific-popup.min.js')}}"></script>
+			<script src="{{  url_for('static', filename='js/owl.carousel.min.js')}}"></script>
+			<script src="{{  url_for('static', filename='js/jquery.nice-select.min.js')}}"></script>
+    		<script src="{{  url_for('static', filename='js/jquery.circlechart.js')}}"></script>
+
+			<script src="{{  url_for('static', filename='js/main.js')}}"></script>
+
+		</body>
+	</html>

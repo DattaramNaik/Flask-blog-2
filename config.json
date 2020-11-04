@@ -1,0 +1,15 @@
+{
+  "parameter":
+  {
+    "local_server": "True",
+    "fb_url": "https://www.facebook.com/",
+    "insta_url":"https://www.instagram.com",
+    "tw_url": "https://www.twitter.com/",
+    "gmail-user":"akshay7887680326@gmail.com",
+    "gmail-password":"7887680326",
+    "no. of posts":1
+
+
+
+  }
+}

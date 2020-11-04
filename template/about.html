@@ -1,0 +1,175 @@
+{% extends "structure.html" %}
+{% block body %}
+
+
+			<!-- start banner Area -->
+			<section class="banner-area relative" id="home">	
+				<div class="overlay overlay-bg"></div>
+				<div class="container">				
+					<div class="row d-flex align-items-center justify-content-center">
+						<div class="about-content col-lg-12">
+							<h1 class="text-white">
+								About Us				
+							</h1>	
+							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> About Us</a></p>
+						</div>	
+					</div>
+				</div>
+			</section>
+			<!-- End banner Area -->
+			<div class="Container-fluid m-3 justify-content-center">
+				<div class="row m-2">
+					<div class=" bg-danger  p-5   ">
+						<div class="card justify-content-center " style="width:21rem; cursor:pointer;">
+							<img class="card-img-top shadow bg-white rounded" src="{{  url_for('static', filename='img/about/lap&desk.png')}}" alt="Card image cap">
+							<div class="card-body">
+							  <h5 class="card-title text-danger">Laptop & Desktop</h5>
+							  <ul style="list-style-type:disc;">
+								  <li>AMC of Desktop, Laptop and MAC computers </li>
+								  <li>Setup of Desktop, Laptop and MAC computers </li>
+								  <li>Sales and Installation </li>
+								  <li>Server Setup </li>
+								  <li>Service at your doorstep</li>
+								  <li>24/7 Telephonic support</li>
+							  </ul>
+							</div>
+							<button type="button"  class="btn btn-outline-danger m-3">Read More</button>
+						</div>
+					</div>
+					<div class=" bg-warning justify-content-center p-5 ">
+
+						<div class="card p-3" style="width:21rem; cursor:pointer;">
+							<img class="card-img-top shadow bg-white rounded" src="{{  url_for('static', filename='img/about/printer.jpg')}}" alt="Card image cap">
+							<div class="card-body ">
+							  <h5 class="card-title text-warning">Scanner & Printer</h5>
+							  <ul style="list-style-type:disc;">
+								  <li>Driver Installation</li>
+								  <li>Hardware Repairing</li>
+								  <li>cartridge</li>
+								  <li>white paper bunch </li>
+								  <li>printer services </li>
+
+							  </ul>
+							</div>
+							<button type="button" class="btn btn-outline-danger">Read More</button>
+						</div>
+
+					</div>
+					<div class=" bg-success justify-content-center p-5 ">
+
+						<div class="card p-3" style="width:21rem; cursor:pointer;">
+							<img class="card-img-top shadow bg-white rounded" src="{{  url_for('static', filename='img/about/cctv22.jpg')}}" alt="Card image cap">
+							<div class="card-body">
+							  <h5 class="card-title text-info">CCTV Camera</h5>
+								<ul style="list-style-type:disc;">
+									<li>Annual Maintenance Contract </li>
+									<li>Sales and Installation </li>
+									<li> Techinical Installation</li>
+									<li> Study Of Area's Requirement</li>
+									<li>Secure and easy storing </li>
+
+								</ul>
+							</div>
+							<button type="button" class="btn btn-outline-danger">Read More</button>
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+
+				<!-- why choose us section-->
+				<section>
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-md-12 pb-50 header-text text-center">
+								<h1 class="mb-10">Why Choose Us</h1>
+							</div>
+							<div class="row mb-2">
+								<div class="col-lg-6"><img src="{{  url_for('static', filename='img/about/why.png')}}" alt="" style="width:100%; height:auto;" title="" /></div>
+								<div class="col-lg-6"><p style="position:relative; display:block; font-size:12px; text-align: justify;line-height: 28px;color: #444444; font-weight: 400; margin-bottom: 15px;">Apart from zealous and passionate laptop repairing service we furnish our clients with free onsite support, free pick & drop facility, door-step service and same day repair facility. We have a young, creative and enthusiastic team of technicians that are upto skilled with all models of Dell. We know the worth of laptop in one's life thus we pledge our customer with our same day repair facility. Our main mission is our customer's satisfaction. We know the main question arises in your before giving your worthy laptop in our hand and it is, Why Choose Us?? Our salient features are less service charges, free door-step service, replaceable parts are 100% tested and original, devoted team and our commitment regarding our work. Some of our services are motherboard replacement, fan replacement, hinges replacement, speaker replacement, touchpad replacement, keypad replacement, software installation and much more. None of the issue is major for us. Thus make an early connection with us.</p></div>
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+
+
+					<div class="container-fluid bg-warning">
+						<div class="row justify-content-center">
+							<div class="col-md-12 pb-10 header-text text-center">
+								<h1 class="mb-1" style="position:relative; display:block; font-size:28px; text-align: center;line-height: 28px;color: #fff; font-weight: 600; margin-bottom: 15px;">Service At</h1>
+							</div>
+							<div class="row">
+							<p style="position:relative; display:block; font-size:18px; text-align: center;line-height: 28px;color: #17a2b8; font-weight: Bold; margin-bottom: 15px;">Mumbai | Thane | Palghar </p>
+						</div>
+
+						</div>
+
+
+					</div>
+
+					<!-- Start discount-section Area -->
+			<section class="discount-section-area relative section-gap">
+				<div class="overlay overlay-bg"></div>
+				<div class="container">
+					<div class="row align-items-center justify-content-between no-gutters">
+						<div class="col-lg-6 discount-left">
+							<h1 class="text-white">Unable to work? Your computer freezes?</h1>
+							<p class="text-white">
+								 We’ll help you get back to work. Fast and Qualitatively.
+							</p>
+							<a href="tel:+91 72084 41554 " class="header-btn">Order Service Now</a>
+						</div>
+						<div class="col-lg-5 discount-right">
+							<h4 class="text-white">	SEND ANY QUERY ON MAIL</h4>
+		                    <form class="booking-form" id="myForm" action="/about" method="POST">
+		                        <div class="row">
+		                            <div class="col-lg-12 d-flex flex-column">
+		                                <input name="name" placeholder="Your name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Name'" class="form-control mt-20" required="" type="text">
+		                            </div>
+		                            <div class="col-lg-6 d-flex flex-column">
+		                                <input name="phone" placeholder="Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" class="form-control mt-20" required="" type="text">
+		                            </div>
+		                            <div class="col-lg-6 d-flex flex-column">
+		                                <input name="email" placeholder="Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'" class="form-control mt-20" required="" type="email">
+		                            </div>
+		                            <div class="col-lg-12 flex-column">
+		                                <textarea rows="5" class="form-control mt-20" name="message" placeholder="Messege" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
+		                            </div>
+
+
+		                                <button class="genric-btn primary mt-20 mr-2 text-uppercase " type="submit">SUBMIT</button>
+
+									<div class=" justify-content-end send-btn">
+
+		                                <a class="genric-btn success mt-20 text-uppercase justify-content-end" href="https://api.whatsapp.com/send?phone=917208441554&text=Hi%20I%20have%20a%20problem%20with%20my%20Computer.%20Please%20Help%20me%20out%20!!!" >
+											<span class="fa fa-whatsapp"></span>
+											WHATSAPP US
+										</a>
+									</div>
+
+		                        </div>
+		                    </form>
+						</div>
+					</div>
+				</div>
+			</section>
+<!-- Print Flash Message Start-->
+			  {% with messages = get_flashed_messages( with_categories = true)  %}
+			  {% if messages %}
+			  {% for category , message in messages %}
+			  <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+				  {{ message }}
+				  <button type="button" class="close" data-dismiss ="alert" aria-label="close">
+					  <span aria-hidden="true">&times;</span>
+				  </button>
+			  </div>
+			  {% endfor %}
+			  {% endif %}
+			  {% endwith %}
+			  <!-- Print Flash Message end-->
+
+ {% endblock %}
